@@ -64,7 +64,7 @@ cd your-repository-name
 python -m venv venv
 source venv/bin/activate        # On Windows: venv\Scripts\activate
 ```
-3️⃣ Install Dependencies
+### 3️⃣ Install Dependencies
 Create a requirements.txt file and include the following content:
 ```bash
 streamlit
@@ -81,23 +81,23 @@ Then install all dependencies with:
 pip install -r requirements.txt
 ```
 
-4️⃣ Add Your Data File
+### 4️⃣ Add Your Data File
 Make sure to place the Harga_Nasional_Pivot.csv file in the root directory of the project.
-  ℹ️ See the 📄 Data File Information section below for the required format.
+  ### ℹ️ See the 📄 Data File Information section below for the required format.
 
-5️⃣ Run the Streamlit App
+### 5️⃣ Run the Streamlit App
 ```bash
 streamlit run app.py
 ```
 
-📄 Data File Information
+### 📄 Data File Information
 Your data file must meet the following requirements:
 File Name: Harga_Nasional_Pivot.csv
 Location: Must be placed in the root directory of the project
 Format:
--CSV format
--Must contain a column named Tanggal in dd/mm/yyyy format
--Other columns should represent commodity names (e.g., Beras, Gula Pasir, Minyak Goreng) with numeric price values
+- CSV format
+- Must contain a column named Tanggal in dd/mm/yyyy format
+- Other columns should represent commodity names (e.g., Beras, Gula Pasir, Minyak Goreng) with numeric price values
 
 ✅ Example Structure:
 ```
